@@ -3,6 +3,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
+	font-family: 'Press Start 2P', cursive;
 }
 
 h1{
@@ -15,6 +16,7 @@ input {
     outline: none;
     border: 1px solid white;
     color: white;
+	font-family: 'Press Start 2P', cursive;
 }
 
 button {
@@ -23,6 +25,7 @@ button {
     color: white;
     outline: none;
     box-shadow: 3px 3px darkgrey;
+	font-family: 'Press Start 2P', cursive;
 }
 
 .wrapper {
@@ -36,7 +39,6 @@ button {
 table {
     margin-top: 20px;
     border: 1px solid white;
-    box-shadow: 3px 3px darkgrey;
     display: block;
 }
 
