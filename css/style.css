@@ -1,0 +1,48 @@
+body {
+    font-family: console;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+input {
+    background-color:transparent;
+    outline: none;
+    border: 1px solid white;
+    color: white;
+}
+
+button {
+    border: solid white 1px;
+    background-color:transparent;
+    color: white;
+    outline: none;
+    box-shadow: 3px 3px darkgrey;
+}
+
+.wrapper {
+    display: inline-block;
+    box-shadow: 0px 0px 10px white;
+    padding: 50px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+table {
+    margin-top: 20px;
+    border: 1px solid white;
+    box-shadow: 3px 3px darkgrey;
+}
+
+tr:nth-child(even) {
+    background-color: dimgrey
+}
+
+th,td {
+    border-bottom: 1px solid white;
+}
+
+td {
+    padding: 0px 49px;
+    outline: none;
+}
