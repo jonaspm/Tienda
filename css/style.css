@@ -5,6 +5,11 @@ body {
     text-align: center;
 }
 
+h1{
+    color: black;
+    text-shadow: 0 0 15px white;
+}
+
 input {
     background-color:transparent;
     outline: none;
@@ -32,17 +37,26 @@ table {
     margin-top: 20px;
     border: 1px solid white;
     box-shadow: 3px 3px darkgrey;
+    display: block;
 }
 
 tr:nth-child(even) {
-    background-color: dimgrey
+    background-color: #4f4f4f;
 }
 
-th,td {
+th {
     border-bottom: 1px solid white;
 }
 
+th,td {
+    width: 100%;
+}
+
 td {
-    padding: 0px 49px;
+    padding: 5px 40px;
     outline: none;
+}
+
+tfoot{
+    height: 30px;
 }
